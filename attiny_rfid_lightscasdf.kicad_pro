@@ -366,7 +366,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "espboardpreroute.dsn",
+      "specctra_dsn": "attiny_rfid_light.dsn",
       "step": "",
       "vrml": ""
     },
