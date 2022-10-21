@@ -1,4 +1,4 @@
-20391593481884038
+20393259881554140
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86031,6 +86031,13 @@ varistor SIOV
 2
 pcb_inductors
 60_turn_square_inductor
+60_turn_square_inductor
+
+0
+3
+3
+pcb_inductors
+60_turn_square_inductor_corrected
 60_turn_square_inductor
 
 0

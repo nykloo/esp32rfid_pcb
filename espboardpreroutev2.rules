@@ -1,5 +1,5 @@
 
-(rules PCB espboardpreroute
+(rules PCB espboardpreroutev2
   (snap_angle 
     fortyfive_degree
   )
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2346)
+    (start_pass_no 2399)
     (layer_rule F.Cu
-      (active on)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
-    )
-    (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
     )
   )
   (rule
@@ -55,11 +55,11 @@
   (class default
     GND +3V3 "Net-(C2-Pad2)" "Net-(C_AGND1-Pad1)" +5V "Net-(C_DC1-Pad1)" "Net-(C_DEC1-Pad1)" "Net-(C_DEC1-Pad2)"
     "Net-(C_DV3-Pad1)" "Net-(C_DV4-Pad1)" "Net-(C_DV4-Pad2)" "Net-(C_FCAP1-Pad1)" "Net-(C_RES1-Pad2)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)" "unconnected-(IC1-Pad7)"
-    "Net-(IC1-Pad13)" "Net-(J_DEBUG1-Pad5)" "Net-(J_DEBUG1-Pad6)" "unconnected-(J_POWER1-Pad2)" "unconnected-(J_POWER1-Pad3)" "unconnected-(J_POWER1-Pad4)" "unconnected-(J_POWER1-Pad6)" "Net-(L_ANT1-Pad2)"
-    "Net-(R_3-Pad2)" "Net-(R_4-Pad1)" "Net-(R_5-Pad1)" "unconnected-(U1-Pad4)" "unconnected-(U1-Pad5)" "unconnected-(U1-Pad6)" "unconnected-(U1-Pad7)" "unconnected-(U1-Pad8)"
-    "unconnected-(U1-Pad9)" "unconnected-(U1-Pad10)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad14)" "unconnected-(U1-Pad16)" "unconnected-(U1-Pad17)" "unconnected-(U1-Pad18)"
-    "unconnected-(U1-Pad19)" "Net-(U1-Pad20)" "unconnected-(U1-Pad21)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad26)" "unconnected-(U1-Pad29)" "unconnected-(U1-Pad30)" "unconnected-(U1-Pad31)"
-    "unconnected-(U1-Pad32)" "unconnected-(U1-Pad33)" "unconnected-(U1-Pad36)" "unconnected-(IC1-Pad14)" "Net-(JLED1-Pad2)" "Net-(J_DEBUG1-Pad4)"
+    "Net-(IC1-Pad13)" "Net-(J_DEBUG1-Pad5)" "Net-(J_DEBUG1-Pad6)" "unconnected-(J_POWER1-Pad2)" "unconnected-(J_POWER1-Pad3)" "unconnected-(J_POWER1-Pad4)" "unconnected-(J_POWER1-Pad6)" "Net-(R_3-Pad2)"
+    "Net-(R_4-Pad1)" "Net-(R_5-Pad1)" "unconnected-(U1-Pad4)" "unconnected-(U1-Pad5)" "unconnected-(U1-Pad6)" "unconnected-(U1-Pad7)" "unconnected-(U1-Pad8)" "unconnected-(U1-Pad9)"
+    "unconnected-(U1-Pad10)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad14)" "unconnected-(U1-Pad16)" "unconnected-(U1-Pad17)" "unconnected-(U1-Pad18)" "unconnected-(U1-Pad19)"
+    "Net-(U1-Pad20)" "unconnected-(U1-Pad21)" "unconnected-(U1-Pad22)" "Net-(IC1-Pad14)" "unconnected-(U1-Pad29)" "unconnected-(U1-Pad30)" "unconnected-(U1-Pad31)" "unconnected-(U1-Pad32)"
+    "unconnected-(U1-Pad33)" "unconnected-(U1-Pad36)" "unconnected-(U1-Pad28)" "Net-(JLED1-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule

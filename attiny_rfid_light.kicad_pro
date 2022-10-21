@@ -366,7 +366,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "espboardpreroute.dsn",
+      "specctra_dsn": "espboardpreroutev2.dsn",
       "step": "",
       "vrml": ""
     },
