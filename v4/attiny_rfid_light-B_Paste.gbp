@@ -1,0 +1,18 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2022-11-29T16:33:33-07:00*%
+%TF.ProjectId,attiny_rfid_light,61747469-6e79-45f7-9266-69645f6c6967,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2022-11-29 16:33:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,1.524000*%
+G04 APERTURE END LIST*
+D10*
+X138658783Y-130381698D03*
+M02*
