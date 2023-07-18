@@ -364,7 +364,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "attiny_rfid_light.emn",
       "netlist": "",
       "specctra_dsn": "espboardpreroutev4.dsn",
       "step": "",
