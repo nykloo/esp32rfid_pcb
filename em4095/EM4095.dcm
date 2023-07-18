@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EM4095
+D Read/Write analog front end for 125 kHz RFID Basestation, SO16
+K
+F https://www.emmicroelectronic.com/sites/default/files/products/datasheets/em4095_ds.pdf
+$ENDCMP
+#
+#End Doc Library

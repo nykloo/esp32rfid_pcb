@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "pcb_coil_antennas")(type "KiCad")(uri "${KIPRJMOD}/pcb_coil_antennas")(options "")(descr ""))
+)

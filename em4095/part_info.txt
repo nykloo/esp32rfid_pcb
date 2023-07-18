@@ -1,0 +1,9 @@
+Manufacturer=EM MICROELECTRONIC
+PartNumber=EM4095
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2020-12-05 07:59:44
+Downloaded=2022-08-18 04:45:06
+3D=Y
